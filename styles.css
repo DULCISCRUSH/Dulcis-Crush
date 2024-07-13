@@ -29,6 +29,7 @@ body {
     border: 2px solid red;
     border-radius: 8px;
     padding: 5px;
+}
 
 .hud-info {
     display: flex;
