@@ -3,9 +3,9 @@
 
 cores: http://docesdepelotas.org.br/site/produtos/
 
-blue: Queijadinha
-green: Camafeu
-orange: Pastel-de-Santa-Clara
-purple: Amanteigado
-red: Quindim
-yellow: Trouxas-de-Amendoas
+blue: Queijadinha,
+green: Camafeu,
+orange: Pastel-de-Santa-Clara,
+purple: Amanteigado,
+red: Quindim,
+yellow: Trouxas-de-Amendoas,
