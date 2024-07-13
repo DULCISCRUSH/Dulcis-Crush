@@ -119,7 +119,7 @@ function checkRowForThree() {
         const isBlank = squares[i].style.backgroundColor === '';
 
         if (rowOfThree.every(index => squares[index].style.backgroundColor === decidedColor && !isBlank)) {
-            score += 3;
+            score += 250;
             rowOfThree.forEach(index => {
                 squares[index].style.backgroundColor = '';
             });
@@ -135,7 +135,7 @@ function checkColumnForThree() {
         const isBlank = squares[i].style.backgroundColor === '';
 
         if (columnOfThree.every(index => squares[index].style.backgroundColor === decidedColor && !isBlank)) {
-            score += 3;
+            score += 250;
             columnOfThree.forEach(index => {
                 squares[index].style.backgroundColor = '';
             });
@@ -151,7 +151,7 @@ function checkRowForFour() {
         const isBlank = squares[i].style.backgroundColor === '';
 
         if (rowOfFour.every(index => squares[index].style.backgroundColor === decidedColor && !isBlank)) {
-            score += 4;
+            score += 500;
             rowOfFour.forEach(index => {
                 squares[index].style.backgroundColor = '';
             });
@@ -167,7 +167,7 @@ function checkColumnForFour() {
         const isBlank = squares[i].style.backgroundColor === '';
 
         if (columnOfFour.every(index => squares[index].style.backgroundColor === decidedColor && !isBlank)) {
-            score += 4;
+            score += 500;
             columnOfFour.forEach(index => {
                 squares[index].style.backgroundColor = '';
             });
