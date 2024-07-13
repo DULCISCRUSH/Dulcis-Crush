@@ -17,6 +17,12 @@ body {
     display: block;
 }
 
+.menu button {
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+}
+
 .hud {
     display: flex;
     justify-content: space-between;
