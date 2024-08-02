@@ -2,6 +2,7 @@
 
 
 cores: http://docesdepelotas.org.br/site/produtos/
+jogo baseado: https://github.com/rembound/Match-3-Game-HTML5?tab=readme-ov-file
 
 blue: Queijadinha,
 green: Camafeu,
