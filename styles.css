@@ -7,6 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
+    flex-direction: column;
 }
 
 .menu, .section {
@@ -29,6 +30,16 @@ body {
     padding: 10px;
     background-color: #333;
     color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hud button {
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: black;
+    color: white;
 }
 
 .hud-info {
@@ -42,4 +53,37 @@ body {
     grid-template-rows: repeat(8, 50px);
     gap: 2px;
     margin-top: 10px;
+    max-width: 400px;
+}
+
+@media (max-width: 600px) {
+    body {
+        height: auto;
+        padding: 20px;
+    }
+
+    .hud {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hud-info {
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+
+    #game-board {
+        grid-template-columns: repeat(8, 35px);
+        grid-template-rows: repeat(8, 35px);
+        gap: 2px;
+        max-width: 300px;
+    }
+
+    .menu button, .section button {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 16px;
+    }
 }
